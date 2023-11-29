@@ -1,0 +1,13 @@
+{
+  "preset": "ts-jest",
+  "rootDir": "./src",
+  "roots": ["<rootDir>/", "<rootDir>/../tests/"],
+  "testMatch": ["**/tests/**/*.test.ts"],
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "verbose": true,
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "transformIgnorePatterns": ["<rootDir>/node_modules/"],
+  "moduleFileExtensions": ["ts", "js", "json"]
+}
